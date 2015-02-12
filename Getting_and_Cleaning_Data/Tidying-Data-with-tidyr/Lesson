@@ -1,1 +1,40 @@
-comming soon
+> library(tidyr)
+> students
+> ?gather
+> gather(students, sex,count, -grade)
+> students2
+> res <- gather(students2, sex_class, count, -grade)
+> res
+> ?separate
+> separate(res,sex_class,c("sex","class"))
+student2
+>>> script1.R>>Scripts>>>
+> submit()
+> students3
+>>> script2.R>>Scripts>>>
+> submit()
+> ?spread
+>>> script3.R>>Scripts>>>
+> submit()
+> extract_numeric("class5")
+>>> script4.R>>Scripts>>>
+> submit()
+> students4
+>>> script5.R>>Scripts>>>
+> submit()
+>>> script6.R>>Scripts>>>
+> submit()
+>>> script7.R>>Scripts>>>
+> submit()
+> passed
+> failes
+> failed
+> passed <- passed %>% mutate(status = "passed")
+> failed<- failed %>% mutate(status = "failed")
+> packageVersion('dplyr')
+> bind_rows(passed, failed)
+> sat
+>>> script8.R>>Scripts>>>
+> submit()
+>>> script9.R>>Scripts>>>
+> submit()

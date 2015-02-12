@@ -6,9 +6,6 @@
 - Download in RStudio
 ```
 install.packages("swirl")
-```
-Next
-```
 library(swirl)
 install_from_swirl("Course Name Here")
 swirl()
